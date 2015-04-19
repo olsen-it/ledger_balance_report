@@ -41,7 +41,7 @@ function open_csv(rowno){
 	if (url == "") {
 		//alert("No transactions found.");
 	} else { 
-		var win=window.open("../csv/"+url+".csv");
+		var win=window.open("../Debitorer/csv/"+url+".csv");
 		win.focus();  
 	}
 }
