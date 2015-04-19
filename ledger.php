@@ -128,7 +128,7 @@ function open_csv(rowno){
 				
 				if (isset($sub_account->name)) {
 					printf("<div id='link_csv".$rowno."' style='float:right'><a onclick='open_csv(%s)'>", $rowno);
-					echo '<img style="border:0;float:right" src="../image/csv.png" width="20" height="20">';
+					echo '<img style="border:0;float:right" src="csv.png" width="20" height="20">';
 					echo "</a></div>";
 				}
 				
